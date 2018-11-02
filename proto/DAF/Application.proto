@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package DAF;
+
+import "DAF/Insights/InsightConfig.proto";
+
+message Application {
+    DAF.Insights.InsightConfig InsightConfig = 2;
+
+    string Name = 1;
+}
