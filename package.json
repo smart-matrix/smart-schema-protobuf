@@ -6,8 +6,6 @@
     "build-deploy": "npm version patch && npm run deploy",
     "deploy": "npm publish --access public"
   },
-  "dependencies": {
-    "protobufjs": "6.8.8"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
